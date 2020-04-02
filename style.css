@@ -8,7 +8,7 @@ body{
   height: 500px;
 
   /* Image de background */
-  background-image: url(/img/surfing-surfer.jpg);
+  background-image: url(../img/surfing-surfer.jpg);
 
 
   /* Centrer l'image et la mettre bien sur tout les écrans */
