@@ -13,8 +13,8 @@
   <!-- Kit d'icones Font Awesome -->
   <script src="https://kit.fontawesome.com/46b107b9e4.js" crossorigin="anonymous"></script>
 
-  <!-- Police Google Font : Montserrat -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Police Google Font : Montserrat Medium 500-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
 
   <!-- Surcouche CSS -->
   <link rel="stylesheet" href="style.css">
@@ -29,18 +29,21 @@
     <a class="navbar-brand" href="#">The Surfing Project</a>
 
     <!-- Boutton contenant le menu (collapsibe button) -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <!-- "data-target -> créer un lien avec le div #id -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <!-- "data-target -> créer un lien avec le div #id -->
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Contient les éléments du menu -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!-- "collapse -> classe pour indiquer que l'on à le contenu du menu" -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <!-- "collapse -> classe pour indiquer que l'on à le contenu du menu" -->
       <!-- Liste contenant les différent éléménent du menu "non rassemblé"-->
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#">Accueil</a>
         </li>
-        <li class="nav-item text-nowrap"> <!-- "text-nowrap -> Permet d'éviter que le texte se superpose" -->
+        <li class="nav-item text-nowrap">
+          <!-- "text-nowrap -> Permet d'éviter que le texte se superpose" -->
           <a class="nav-link" href="#">Le programme</a>
         </li>
         <!-- Menu déroulant (dropdown) -->
@@ -59,7 +62,8 @@
   </nav>
 
   <!-- (Jumbotron) Image vitrine avec un texte au centre  -->
-  <div class="jumbotron jumbotron-surf text-center text-dark jumbotron-fluid"> <!-- "texte-center -> centrer le contenu texte" -->
+  <div class="jumbotron jumbotron-surf text-center text-dark jumbotron-fluid">
+    <!-- "texte-center -> centrer le contenu texte" -->
     <h1>Partez à l'aventure</h1>
     <h5>Découvrez notre école de surf en peer-learning</h5>
     <br>
@@ -68,32 +72,99 @@
   </div>
 
   <!-- Corps de la page  -->
-  <div class="container-fluid ">
+  <div class="container">
+
     <!-- Les trois points -->
-    <div class="text-center m-4 pt-4 pb-2"><h1>The Surfing Project en 3 points</h1></div>
+    <div class="text-center m-4 pt-4 pb-2">
+      <h1>The Surfing Project en 3 points</h1>
+    </div>
     <div class="row justify-content-center">
-      <div class="col-md-3">
-        <div class="text-center"><i class="fas fa-money-bill-wave-alt fa-6x center-block"></i></div>
-        <h2 class="text-center text-nowrap">Pas chère</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+      <div class="col-lg-4">
+        <div class="text-center"><i class="fas fa-money-bill-wave-alt fa-6x"></i></div>
+        <h2 class="text-center text-nowrap pt-2">Pas chère</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit
+          distinctio corrupti itaque dolores excepturi.</p>
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-4">
         <div class="text-center"><i class="fas fa-couch fa-6x"></i></div>
-        <h2 class="text-center">Relax</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+        <h2 class="text-center pt-2">Relax</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit
+          distinctio corrupti itaque dolores excepturi.</p>
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-4">
         <div class="text-center"><i class="fas fa-users fa-6x"></i></div>
-        <h2 class="text-center text-nowrap">La communauté</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+        <h2 class="text-center pt-2">La communauté</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit
+          distinctio corrupti itaque dolores excepturi.</p>
       </div>
     </div>
 
+    <!-- Témoignages -->
+    <div class="text-center m-4 pt-4 pb-2">
+      <h1>Témoignages</h1>
+    </div>
+    <div class="card-deck pb-4">
+      <!-- Témoignage Carte Camille -->
+      <div class="card bg-light">
+        <img src="img/Camille.jpg" alt="Jeff" style="width: 100%">
+        <div class="card-body">
+          <p class="card-text">Surfing's not a sport, it's way of life, it's no hobby. It's a way of looking at that wave and saying, "Hey bud, let's party!"</p>
+          <p class="card-text text-secondary small">Camille, Avril 2020</p>
+        </div>
+      </div>
+      <!-- Témoignage Carte Vanman -->
+      <div class="card bg-light">
+        <img src="img/Vanman.jpg" alt="Jeff" style="width: 100%">
+        <div class="card-body">
+          <p class="card-text">Grâce à TSP je fait le tour du monde avec mon van et je fais du surf! Si l'expérience était à refaire, je la referais.</p>
+          <p class="card-text text-secondary small">Vanman, Mars 2020</p>
+        </div>
+      </div>
+    </div>
 
-
-
+    <!-- Prix -->
+    <div class="text-center m-4 pt-4 pb-2">
+      <h1>Prix</h1>
+    </div>
+    <div class="card-deck">
+      <!-- Carte Prix Essai -->
+      <div class="card bg-light text-center">
+        <div class="card-header"><h4>Semaine d'essai</h4></div>
+        <div class="card-body">
+          <h2>0€</h2>
+          <p class="card-text">Le kiff <br> À Bali <br>Pendant 1 semaine</p>
+          <button role="button" class="btn btn-outline-primary btn-block">S'inscrire</button>
+        </div>
+      </div>
+      <!-- Carte Prix Early Bird -->
+      <div class="card bg-light text-center">
+        <div class="card-header"><h4>Early Bird</h4></div>
+        <div class="card-body">
+          <h2>15€</h2>
+          <p class="card-text">Le kiff <br> À Bali <br>Pendant 12 semaine</p>
+          <button role="button" class="btn btn-primary btn-block">S'inscrire</button>
+        </div>
+      </div>
+      <!-- Prix en trois fois -->
+      <div class="card bg-light text-center">
+        <div class="card-header"><h4>En trois fois</h4></div>
+        <div class="card-body">
+          <h2>7€ <span class="text-secondary small">/ mo</span></h2>
+          <p class="card-text">Le kiff <br> À Bali <br>Pendant 12 semaine</p>
+          <button role="button" class="btn btn-primary btn-block">S'inscrire</button>
+        </div>
+      </div>
+    </div>
 
   </div>
+
+  <!-- Pied de page -->
+  <footer class="page-footer  pt-4 mt-4">
+    <div class="container">
+      <p class="footer-copyright text-secondary">© Bootstrap et The Surfing Project</p>
+    </div> 
+  </footer>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
