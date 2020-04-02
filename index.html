@@ -24,7 +24,7 @@
 
 <body>
   <!-- Navbar (mode dark) (taille -> toute la page) -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <!-- Nom du site -->
     <a class="navbar-brand" href="#">The Surfing Project</a>
 
@@ -59,12 +59,40 @@
   </nav>
 
   <!-- (Jumbotron) Image vitrine avec un texte au centre  -->
-  <div class="jumbotron jumbotron-surf text-center"> <!-- "texte-center -> centrer le contenu texte" -->
+  <div class="jumbotron jumbotron-surf text-center text-dark jumbotron-fluid"> <!-- "texte-center -> centrer le contenu texte" -->
     <h1>Partez à l'aventure</h1>
     <h5>Découvrez notre école de surf en peer-learning</h5>
     <br>
-    <button type="button" class="btn btn-primary">Je m'inscris à la prochaine session</button>
-    <button type="button" class="btn btn-secondary">Je décrouvre le programme</button>
+    <button type="button" class="btn btn-primary mb-2">Je m'inscris à la prochaine session</button>
+    <button type="button" class="btn btn-secondary mb-2">Je décrouvre le programme</button>
+  </div>
+
+  <!-- Corps de la page  -->
+  <div class="container-fluid ">
+    <!-- Les trois points -->
+    <div class="text-center m-4 pt-4 pb-2"><h1>The Surfing Project en 3 points</h1></div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="text-center"><i class="fas fa-money-bill-wave-alt fa-6x center-block"></i></div>
+        <h2 class="text-center text-nowrap">Pas chère</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center"><i class="fas fa-couch fa-6x"></i></div>
+        <h2 class="text-center">Relax</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center"><i class="fas fa-users fa-6x"></i></div>
+        <h2 class="text-center text-nowrap">La communauté</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, soluta! Eum voluptas natus cum impedit distinctio corrupti itaque dolores excepturi.</p>
+      </div>
+    </div>
+
+
+
+
+
   </div>
 
   <!-- Optional JavaScript -->
