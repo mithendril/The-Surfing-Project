@@ -1,0 +1,18 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Problème à résoudre -> Rendre l'image de fond floue */
+.jumbotron-surf{
+  /* Taille de l'image */
+  height: 500px;
+
+  /* Image de background */
+  background-image: url(/img/surfing-surfer.jpg);
+
+
+  /* Centrer l'image et la mettre bien sur tout les écrans */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
